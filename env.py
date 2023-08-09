@@ -1,4 +1,4 @@
 import os
 
-repo = os.environ.get("GITHUB_REPOSITORY")
-print(f"respository = {repo}")
+password = os.environ.get("DB_P")
+print(f"password = {password}")
